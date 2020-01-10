@@ -1,3 +1,6 @@
+"""
+这里是从 0_flaskLearn.py 中得到的新的数据
+"""
 from flask import Flask
 from flask import request, render_template
 
@@ -24,4 +27,4 @@ def signin():
 
 
 if __name__ == "__main__":
-    app.run()
+    app.run(debug=True)
